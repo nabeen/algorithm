@@ -1,0 +1,15 @@
+{
+    "name": "nabeen/algorithm",
+    "description": "any algorithm",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nabeen",
+            "email": "watanabe_kenichiro@hasigo.co.jp"
+        }
+    ],
+    "require": {
+    	"monolog/monolog": "1.*"
+    }
+}
