@@ -1,0 +1,19 @@
+#! /usr/bin/env php
+
+<?php
+$files = array(
+    '/vendor/autoload.php',
+    '/../../vendor/autoload.php',
+);
+
+// autoloadの読み込み
+foreach ($files as $file) {
+    if (file_exists(__DIR__.$file)) {
+        require __DIR__.$file;
+        break;
+    }
+}
+
+// 処理実行
+$app = new \nabeen\algorithm\TestCommand();
+$app->run($argv);

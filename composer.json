@@ -11,5 +11,11 @@
     ],
     "require": {
     	"monolog/monolog": "1.*"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "nabeen\\algorithm\\": "src"
+        }
+    },
+    "bin": ["test-command"]
 }
